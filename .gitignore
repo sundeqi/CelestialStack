@@ -1,0 +1,16 @@
+# 此仓库只发布文档；安装包通过 Releases 附件提供。
+*
+!.gitignore
+!README.md
+!README.en.md
+!COPYRIGHT.md
+!RELEASE_NOTES.md
+!docs/
+!docs/*.md
+!.github/
+!.github/ISSUE_TEMPLATE/
+!.github/ISSUE_TEMPLATE/*.md
+!.github/ISSUE_TEMPLATE/*.yml
+
+!assets/
+!assets/usdt-trc20.png
