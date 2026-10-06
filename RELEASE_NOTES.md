@@ -22,8 +22,8 @@
 ## 下载附件
 
 - `MoonStack-0.3.1-public-beta-macOS15-arm64.dmg`：应用安装包及公开版说明。
-- `月亮堆栈_用户使用说明书_公开测试版0.3.1.pdf`：安装与操作手册。
-- `月亮堆栈_功能与兼容性说明_公开测试版0.3.1.pdf`：功能范围与已知限制。
+- `MoonStack_User_Guide_zh-CN_0.3.1_Public_Beta.pdf`：安装与操作手册。
+- `MoonStack_Features_Compatibility_zh-CN_0.3.1_Public_Beta.pdf`：功能范围与已知限制。
 - `MoonStack_User_Guide_0.3.1_Public_Beta.pdf`：英文使用指南。
 - `SHA256SUMS.txt`：附件完整性校验值。
 
