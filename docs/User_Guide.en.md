@@ -1,12 +1,14 @@
-# MoonStack User Guide
+# CelestialStack User Guide
 
-0.3.1 Public Beta | Apple Silicon · macOS 15+ | 2026-10-06
+0.3.5 Public Beta | Apple Silicon · macOS 15+ | 2026-10-07
+
+This release retains the wider sky margin introduced in 0.3.4, increased by another 25% relative to 0.3.3, rounded up to the processing crop size. Native image scale is retained; old results are unchanged. Fujifilm RAF support is included. Only Moon stacking is currently supported. The welcome screen and task setup offer a Celestial object selector with Moon as the only option. Existing task folders and language preferences remain compatible.
 
 ## Install and choose a language
 
-Open `MoonStack-0.3.1-public-beta-macOS15-arm64.dmg` and drag the app into Applications. Launch it from Applications; you can then eject the disk image. Keep the app bundle intact.
+Open `CelestialStack-0.3.5-public-beta-macOS15-arm64.dmg` and drag the app into Applications. Launch it from Applications; you can then eject the disk image. Keep the app bundle intact.
 
-On the welcome screen or at the top right of either window, choose English or Simplified Chinese. The default is Simplified Chinese. Your choice is saved and shared between windows. Switching language preserves the current task, paths and adjustment values; it does not recalculate the images.
+Use the clearly labelled “Language / 语言” control on the welcome screen or at the top right of either window to choose English or Simplified Chinese. The first-launch default is English. A previously saved language choice is preserved when upgrading. Your choice is saved and shared between windows. Switching language preserves the current task, paths and adjustment values; it does not recalculate the images.
 
 Raw diagnostic logs retain their original language. Some native file-dialog text follows the macOS language setting. Filenames and paths are never translated.
 
@@ -16,10 +18,10 @@ Raw diagnostic logs retain their original language. Some native file-dialog text
 |---|---|
 | Mac | Apple Silicon (M series), macOS 15 or later |
 | Photos | At least 10 readable RAW files from the same capture sequence |
-| Input | Sony ARW, Nikon NEF, Panasonic RW2, Canon CR2 / CR3 / CRW |
+| Input | Sony ARW, Nikon NEF, Panasonic RW2, Canon CR2 / CR3 / CRW, Fujifilm RAF |
 | Output | 16-bit TIFF, maximum-quality JPG, or both |
 
-Testing has focused on Sony ARW and macOS 15.8.1. Other camera models and compression modes need further validation. Intel Macs, Windows and video input are not supported by this installer.
+Testing has focused on Sony ARW and macOS 15.8.1. RAF sensor unpacking and full 16-bit RGB decoding were verified with public X-T2 samples (X-Trans, uncompressed and lossless compressed) and an X-A1 sample (Bayer, uncompressed). A complete Fujifilm lunar stacking sequence has not yet been validated. Do not mix camera models or compression modes with different decoded dimensions in one task. Other camera models and compression modes need further validation. Intel Macs, Windows and video input are not supported by this installer.
 
 ## First launch
 
@@ -34,6 +36,8 @@ Photos are processed locally and original RAW files are not overwritten. Keep th
 # 01 Create a stacking task
 
 ## Prepare and scan the folder
+
+Choose **Moon** in the welcome screen’s **Celestial object** dropdown. Moon is the only supported target in this version.
 
 Use photos from one camera and capture sequence, with similar focal length and exposure. Keep the whole Moon in frame. Separate different nights or substantially different compositions before scanning.
 
@@ -121,3 +125,7 @@ From the main window, open an existing stack result and select the task folder o
 Uninstalling the app does not automatically delete photos or task results. For feedback, use the release repository's Issues page. Include app, system and camera details, the format and frame count, and steps to reproduce. Remove private usernames and full paths from screenshots and logs before posting. Original photos and complete task folders need not be public.
 
 This is a proprietary public beta; application source code is not published. Third-party copyright and license notices are included with the installer. Future free availability or continued maintenance is not guaranteed.
+
+## Other celestial objects and feedback
+
+Currently, only Moon stacking is supported. To request support for another celestial object, contact me through [Bilibili private messages](https://b23.tv/fRtpz7l) (open the profile and choose 私信) or [GitHub Issues](https://github.com/sundeqi/CelestialStack/issues/new/choose). Include the target and capture setup. Requests help guide future development; no availability date is promised.

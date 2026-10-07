@@ -1,5 +1,5 @@
 ---
-name: 问题反馈
+name: Bug report / 问题反馈
 about: 报告无法启动、读取失败、处理异常或显示问题
 title: "[问题] "
 ---

@@ -1,46 +1,37 @@
-# 月亮堆栈 0.3.1 公开测试版
+# CelestialStack 0.3.5 Public Beta / 星体堆栈公开测试版
 
-适用于 Apple Silicon（M 系列）Mac，macOS 15 及以上。
+Apple Silicon · macOS 15+
 
-## 提供的功能
+## 中文
 
-- 扫描 RAW 文件夹，查看文件清单和读取问题。
-- 自动选取参考照片，完成对齐与堆栈。
-- 双窗同步查看单张与堆栈结果。
-- 调节曝光、明暗对比、AI 降噪与锐化。
-- 同时导出 16 位 TIFF 与最高质量 JPG。
+- 仓库、产品介绍、下载说明与文档统一为 CelestialStack（星体堆栈）。
+- 欢迎页和任务设置新增“天体类型”下拉框，目前仅提供“月亮”。当前只支持月亮堆栈。
+- 首次启动默认英语，可通过 Language / 语言 切换中英文；升级保留已有偏好。
+- 包含富士 RAF 读取支持，以及 Sony ARW、Nikon NEF、Panasonic RW2、Canon CR2 / CR3 / CRW。
+- 保留 0.3.4 的更宽月亮周围留白、双窗对比、曝光、对比度、AI 降噪、小波锐化，以及 16 位 TIFF / 最高质量 JPG 导出。
+- 本次未改变堆栈或图像增强算法。
 
-## 本版更新
-
-- 新增简体中文 / English 切换，覆盖欢迎页、任务设置及双窗编辑器。
-- 自动记住语言选择，主窗口与编辑窗口同步。
-- 切换语言时保留当前任务、拍摄间隔、路径及图像调整值。
-- 新增英文使用指南。本次更新不改变堆栈和图像增强算法。
-
-原始诊断日志保留原文；系统文件选择器的部分文字跟随 macOS 语言。
-
-## 下载附件
-
-- `MoonStack-0.3.1-public-beta-macOS15-arm64.dmg`：应用安装包及公开版说明。
-- `MoonStack_User_Guide_zh-CN_0.3.1_Public_Beta.pdf`：安装与操作手册。
-- `MoonStack_Features_Compatibility_zh-CN_0.3.1_Public_Beta.pdf`：功能范围与已知限制。
-- `MoonStack_User_Guide_0.3.1_Public_Beta.pdf`：英文使用指南。
-- `SHA256SUMS.txt`：附件完整性校验值。
-
-本仓库仅发布安装包及公开文档；GitHub 的 “Source code” 下载不包含应用源码。
-
-## 已知限制
-
-目前实拍验证主要来自 Sony ARW；其他品牌的具体机型与压缩模式需要更多样本验证。当前版本不支持 Windows、Intel Mac 或视频输入。
-
-应用尚未完成 Apple Developer ID 签名和公证，首次启动可能受系统安全检查限制。取消计算不支持原地续算；已完成任务目录移动或改名后，重新打开可能失败。详情见用户手册。
-
-欢迎通过 Issues 提交可复现的问题。反馈前请遮挡私人路径和照片信息。
+其他天体需求请通过 [B 站私信](https://b23.tv/fRtpz7l)或 [GitHub Issues](https://github.com/sundeqi/CelestialStack/issues/new/choose) 联系我。
 
 ## English
 
-MoonStack 0.3.1 public beta is available for Apple Silicon Macs running macOS 15 or later. This release adds Simplified Chinese / English switching with a saved preference and synchronized windows. Switching language preserves the current task and image adjustments. The stacking and enhancement algorithms are unchanged.
+- Consistent CelestialStack branding across the repository and documentation.
+- New **Celestial object** selector on the welcome screen and in task setup. **Moon is the only supported target.**
+- English by default on first launch; saved language preferences are preserved on upgrade.
+- Includes Fujifilm RAF support alongside Sony ARW, Nikon NEF, Panasonic RW2 and Canon CR2 / CR3 / CRW.
+- Retains the wider sky margins from 0.3.4, linked comparison views, exposure, contrast, AI denoising, wavelet sharpening and 16-bit TIFF / maximum-quality JPG export.
+- This update does not change stacking or image-enhancement algorithms.
 
-Download the DMG below. The release also includes Chinese documentation, an English user guide and SHA256 checksums. GitHub's automatically generated source archives contain only public documentation, not the application source code.
+For other celestial targets, contact me through [Bilibili private messages](https://b23.tv/fRtpz7l) or [GitHub Issues](https://github.com/sundeqi/CelestialStack/issues/new/choose).
 
-The app is not Developer ID signed or notarized. Real-photo testing has focused on Sony ARW; other camera and compression combinations need further validation. See the user guides for first-launch instructions and current limitations.
+## Downloads / 下载
+
+- `CelestialStack-0.3.5-public-beta-macOS15-arm64.dmg`: application, bilingual guides and third-party notices.
+- `CelestialStack-0.3.5-User-Documents.zip`: public user documentation.
+- `SHA256SUMS.txt`: file checksums.
+
+应用仍为闭源公开测试版，未完成 Apple Developer ID 签名及公证。当前安装包不支持 Intel Mac、Windows 或视频。富士已验证部分公开样本的 RAW 解码，完整月亮连拍组仍需进一步测试。其他机型与压缩模式的支持取决于实际样本。
+
+The application remains proprietary. This beta is not Developer ID signed or notarized. Intel Macs, Windows and video input are not supported by this installer. Selected Fujifilm RAW samples were validated for decoding; complete lunar sequences and other camera/compression combinations need further testing. See the user guides for installation and limitations.
+
+GitHub’s automatic “Source code” archives contain public documentation, not the application source code.

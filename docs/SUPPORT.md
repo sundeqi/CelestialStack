@@ -1,10 +1,10 @@
-# 支持开发 / Support MoonStack
+# 支持开发 / Support CelestialStack
 
 [返回中文首页](../README.md) · [Back to English overview](../README.en.md)
 
-如果 MoonStack 帮助你完成了满意的月亮照片，欢迎自愿打赏，支持后续开发与维护。感谢你的支持！
+如果 CelestialStack 帮助你完成了满意的月亮照片，欢迎自愿打赏，支持后续开发与维护。感谢你的支持！
 
-If MoonStack helped you create a lunar image you're happy with, consider leaving a voluntary tip to support continued development and maintenance. Thank you!
+If CelestialStack helped you create a lunar image you're happy with, consider leaving a voluntary tip to support continued development and maintenance. Thank you!
 
 ## USDT · TRON (TRC20)
 
