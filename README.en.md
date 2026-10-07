@@ -8,9 +8,9 @@ MoonStack is a lunar RAW stacking app with automatic frame selection and alignme
 
 ## Screenshot
 
-![MoonStack English interface showing a single frame beside the adjusted stack](assets/moonstack-compare-export-en.png)
+![CelestialStack 0.3.4 English interface with wider sky margins, showing the single frame beside the adjusted stack](assets/celestialstack-compare-export-en-v034.png)
 
-English interface example: the unadjusted best single frame on the left, and the stack with sharpening and contrast adjustments on the right (denoise 0%, sharpen 100%, contrast 40%, exposure +0.0 EV).
+CelestialStack (formerly MoonStack) 0.3.4 preview, freshly processed from 12 real RAW photos. Sky margins are another 25% wider than in 0.3.3, with crop dimensions rounded up. Both panels show the full composition at the same zoom: the unadjusted best single frame on the left and the adjusted stack on the right (denoise 0%, sharpen 100%, contrast 40%, exposure +0.0 EV). This new installer is not yet on Releases; the currently published download version is stated above.
 
 ## Download and install
 
@@ -63,6 +63,8 @@ TYuBQ5Rij9z7SddmyDyHz3ErzabeAUnnAT
 ```
 
 [View QR code and network instructions](docs/SUPPORT.md)
+
+[Support me on Bilibili](https://b23.tv/fRtpz7l) · Open the profile and choose “充电” (Support).
 
 Tips are optional and do not affect access to the current public beta. They do not purchase a license for future paid versions or features.
 

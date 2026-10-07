@@ -24,6 +24,12 @@ TYuBQ5Rij9z7SddmyDyHz3ErzabeAUnnAT
 
 The QR code contains only the receiving address above, not an asset, network or amount. After scanning, select **USDT** on **TRON (TRC20)** in your wallet and verify the full address. Do not send via another network.
 
+## B 站充电 / Bilibili Support
+
+[在 B 站为我充电 / Support me on Bilibili](https://b23.tv/fRtpz7l)
+
+链接打开 B 站个人主页，可在主页选择“充电”。The link opens my Bilibili profile; choose “充电” (Support) there.
+
 打赏完全自愿，不影响当前公开测试版的使用，也不代表购买未来付费版本或功能。
 
 Tips are optional and do not affect access to the current public beta. They do not purchase a license for future paid versions or features.

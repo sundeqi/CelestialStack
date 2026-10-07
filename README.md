@@ -10,9 +10,9 @@ MoonStack is a lunar RAW stacking app with automatic frame selection and alignme
 
 ## 界面预览
 
-![MoonStack 英文界面的单张与堆栈双窗对比](assets/moonstack-compare-export-en.png)
+![CelestialStack 0.3.4 英文界面：增加留白后的单张与堆栈对比](assets/celestialstack-compare-export-en-v034.png)
 
-英文界面实拍示例：左侧为未调整的最佳单张，右侧为堆栈后应用锐化和明暗对比调整的效果（降噪 0%、锐化 100%、对比度 40%、曝光 +0.0 EV）。
+CelestialStack（原 MoonStack）0.3.4 新版预览：使用 12 张实际 RAW 重新堆栈，月亮周围留白在 0.3.3 基础上再增加 25%（裁切尺寸向上取整）。左侧为未调整的最佳单张，右侧为堆栈后调整效果；两侧以相同倍率显示完整构图（降噪 0%、锐化 100%、对比度 40%、曝光 +0.0 EV）。新版安装包尚未上传 Releases，当前公开下载版本见下方说明。
 
 ## 下载与安装
 
@@ -69,6 +69,8 @@ TYuBQ5Rij9z7SddmyDyHz3ErzabeAUnnAT
 ```
 
 [查看收款二维码与说明 / View QR code and instructions](docs/SUPPORT.md)
+
+[在 B 站为我充电 / Support me on Bilibili](https://b23.tv/fRtpz7l) · 打开个人主页后选择“充电”。
 
 打赏完全自愿，不影响当前公开测试版的使用，也不代表购买未来付费功能。Tips are optional and do not purchase a license for future paid features.
 
