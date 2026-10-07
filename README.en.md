@@ -6,6 +6,12 @@ MoonStack is a lunar RAW stacking app with automatic frame selection and alignme
 
 **Version 0.3.1 public beta. This repository distributes installers and user documentation; the application source code is not public.**
 
+## Screenshot
+
+![MoonStack English interface showing a single frame beside the adjusted stack](assets/moonstack-compare-export-en.png)
+
+English interface example: the unadjusted best single frame on the left, and the stack with sharpening and contrast adjustments on the right (denoise 0%, sharpen 100%, contrast 40%, exposure +0.0 EV).
+
 ## Download and install
 
 Open this repository's [Releases](https://github.com/sundeqi/MoonStack/releases) page and download the macOS DMG from the public beta marked **Pre-release**. GitHub's automatically generated “Source code” archives contain this repository's documentation, not the application.
